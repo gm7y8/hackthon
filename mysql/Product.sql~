@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Product;
+CREATE TABLE Product(
+	ProductCost		INTEGER NOT NULL,	
+	ProductAttribute	VARCHAR(10) NOT NULL,	
+	ProductDesc		VARCHAR(100) NOT NULL,
+	ProductId 		INTEGER PRIMARY KEY
+
+);
+

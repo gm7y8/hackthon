@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS Sales;
+CREATE TABLE Sales(
+	StoreId			INTEGER NOT NULL,	
+	ProductId	 	INTEGER NOT NULL,
+	CustomerId		INTEGER NOT NULL,
+	PeriodId		INTEGER NOT NULL,
+    Qunatity		SMALLINT NOT NULL,
+    TransactionId	BIGINT NOT NULL
+);
+TRUNCATE table Sales;
+
+
+
